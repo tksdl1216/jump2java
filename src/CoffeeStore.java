@@ -40,6 +40,7 @@ public class CoffeeStore {
                 case "3":
                     System.out.println("3.제품삭제");
                     System.out.println("내용추가");
+                    System.out.println("집에서 작업함...");
                     break;
                 case "4":
                     System.out.println("4.입금");
@@ -57,4 +58,3 @@ public class CoffeeStore {
             }
         }
     }
-}it
