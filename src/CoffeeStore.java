@@ -13,9 +13,10 @@ public class CoffeeStore {
         System.out.println(coffeeM.insertMoney(10000));
         System.out.println(coffeeM.withdrawMoney(1000));
         coffeeM.sellItem(CoffeeType.CAFE_LATTE.name(), 5000);*/
+
         /*CoffeeM coffeeM = new CoffeeM();*/
         Scanner scanner = new Scanner(System.in);
-        CoffeeM coffeeM = new CoffeeM();
+        coffeeM = new CoffeeM();
         while (true){
             System.out.printf("\n[INFO] 현재 잔액 : %d\n", coffeeM.money);
             System.out.println("1.제품등록 2.제품목록 3.제품삭제 4.입금 5.출금 6.판매 7.종료" );
